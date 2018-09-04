@@ -1,0 +1,7 @@
+
+2017-08-13 17:54 Sunday
+ Checking Directory: assignment_03 File: market_basket_analytics.py
+Assignment source code file found
+Assignment source code was run and generated a stack trace
+Please check instructor_stdout.txt for stdout (if any)
+Please check instructor_stderr.txt for stderr (if any)

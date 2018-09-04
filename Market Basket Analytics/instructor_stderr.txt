@@ -1,0 +1,10 @@
+market_basket_analytics.py:176: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
+  df_rec_set = df_rec_set[df_Freq_Set['Item_Set'].str.contains(abc[0])]
+Traceback (most recent call last):
+  File "market_basket_analytics.py", line 188, in <module>
+    print(df_rec_set.loc[df_rec_set['Frequency'].idxmax()])
+  File "/home/ancuser/anaconda3/lib/python3.6/site-packages/pandas/core/series.py", line 1264, in idxmax
+    i = nanops.nanargmax(_values_from_object(self), skipna=skipna)
+  File "/home/ancuser/anaconda3/lib/python3.6/site-packages/pandas/core/nanops.py", line 479, in nanargmax
+    result = values.argmax(axis)
+ValueError: attempt to get argmax of an empty sequence
